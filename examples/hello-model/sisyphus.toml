@@ -1,0 +1,8 @@
+[recipe]
+image = "docker.io/library/ubuntu:24.04"
+timeout = 30
+
+[editor]
+model = "qwen3.8-27b"
+base_url = "http://10.134.6.235:8080/v1"
+timeout = 300

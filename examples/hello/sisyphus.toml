@@ -1,0 +1,9 @@
+[recipe]
+path = "recipe"
+image = "docker.io/library/ubuntu:24.04"
+timeout = 30
+
+[editor]
+path = "editor"
+command = ["sh", "/editor/repair"]
+timeout = 30

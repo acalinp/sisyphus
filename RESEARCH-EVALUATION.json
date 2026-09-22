@@ -1,0 +1,39 @@
+{
+  "run_id": "debb4ba7b0bb416badb3dd5227442eb1",
+  "fetch_image": "aa09691f441f07a6d1f076f25470751bff882a4ba88274f3d7f9fa5af542f0ce",
+  "research_items": {
+    "843351b1afb0454c": {
+      "kind": "git",
+      "url": "https://github.com/octocat/Hello-World.git",
+      "ref": "master",
+      "commit": "7fd1a60b01f91b314f59955a4e4d4e80d8edf11d",
+      "tree_sha256": "c33e8202c8eb45a57f5e972df290f3c069439b3398e8122061a5e2d82433d3ae",
+      "retrieved_at": 1788710912.1063595
+    },
+    "a18dec59feb04e26": {
+      "kind": "download",
+      "url": "https://raw.githubusercontent.com/octocat/Hello-World/master/README",
+      "sha256": "03ba204e50d126e4674c005e04d82e84c21366780af1f43bd54a37816b6ab340",
+      "bytes": 13,
+      "final_url": "https://raw.githubusercontent.com/octocat/Hello-World/master/README",
+      "tree_sha256": "238ac0e7f76de71c028f9e26f1a2724a21e437bc60126331bdfdf9ef9140b28d",
+      "retrieved_at": 1788711181.788983
+    },
+    "dc022f78575e4f11": {
+      "kind": "read_url",
+      "url": "https://git-scm.com/docs/git-clone",
+      "sha256": "6f4d282372d3e854977e75c10fa25031778a7776133700f51a4115f37894e1e4",
+      "tree_sha256": "90b0b067cf41ff0bdce5d7b79c324febcac98069988d6991c8aaf5cf95243f89",
+      "retrieved_at": 1788711183.4755542
+    },
+    "19b3c4df9a0d451b": {
+      "kind": "search",
+      "query": "site.beagleboard.org PocketBeagle 2 USB DFU",
+      "sha256": "db676326cb13a15b5d1dd23622a985ad34d7dfd88fca31b91f0d5e6e7eccf818",
+      "tree_sha256": "3634b5a648e3dc16a24d5722e2e97026fe25a921ea510a12c5b24a5c5f6c0946",
+      "retrieved_at": 1788711184.907871
+    }
+  },
+  "hardware_executed": false,
+  "note": "Direct broker smoke checks; this is not a live model evaluation or a hardware test."
+}

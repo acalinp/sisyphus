@@ -1,0 +1,54 @@
+{
+  "hello": {
+    "run_id": "9b442c7e4ec54f16956f63c9c48d089a",
+    "phase": "accepted",
+    "attempts": [
+      "reject",
+      "reject",
+      "pass"
+    ],
+    "repairs": [
+      "error",
+      "changed"
+    ],
+    "image": "5b8c0c14690ed170da4e663fe0bae0d58efe59661e791296ffab28ed2113b650",
+    "model": {
+      "model": "qwen3.8-27b",
+      "base_url": "http://10.134.6.235:8080/v1",
+      "api_key_env": null,
+      "max_steps": 24
+    },
+    "requests": 6,
+    "completions": 5,
+    "prompt_tokens": 9710,
+    "completion_tokens": 552,
+    "max_message_bytes": 6921,
+    "tool_calls": 7,
+    "bytes_on_disk": 58170
+  },
+  "compile": {
+    "run_id": "c38c88aabd414463b7467a80ecbcc3e4",
+    "phase": "accepted",
+    "attempts": [
+      "reject",
+      "pass"
+    ],
+    "repairs": [
+      "changed"
+    ],
+    "image": "aa09691f441f07a6d1f076f25470751bff882a4ba88274f3d7f9fa5af542f0ce",
+    "model": {
+      "model": "qwen3.8-27b",
+      "base_url": "http://10.134.6.235:8080/v1",
+      "api_key_env": null,
+      "max_steps": 24
+    },
+    "requests": 6,
+    "completions": 6,
+    "prompt_tokens": 19525,
+    "completion_tokens": 1152,
+    "max_message_bytes": 12630,
+    "tool_calls": 9,
+    "bytes_on_disk": 234957
+  }
+}

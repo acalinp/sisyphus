@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+# Deterministic protocol demonstration, not an LLM. Consume the feedback document.
+cat > /tmp/last-feedback.json
+cat > /recipe/hello <<'RECIPE'
+#!/bin/sh
+set -eu
+printf '%s\n' 'hello, world'
+RECIPE
+printf '%s\n' '{"version":1,"status":"changed","message":"Corrected the greeting."}'

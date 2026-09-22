@@ -1,0 +1,33 @@
+[recipe]
+image = "docker.io/library/node:24-bookworm"
+timeout = 120
+
+# [editor]
+# model = "unsloth/Muse-Glimmer-30B-GGUF"
+# model = "qwen3.8-27b"
+# base_url = "http://10.134.6.235:8080/v1"
+# timeout = 1800
+# max_steps = 40
+
+[editor]
+provider = "openrouter"
+model = "deepseek/deepseek-v4-flash-0731:nitro"
+timeout = 300
+
+[research]
+download_hosts = [
+    "github.com",
+    "raw.githubusercontent.com",
+    "codeload.github.com",
+    "release-assets.githubusercontent.com",
+    "git.trustedfirmware.org",
+    "deb.debian.org",
+    "security.debian.org",
+]
+max_mb = 1024
+timeout = 600
+
+[limits]
+memory_mb = 4096
+snapshot_mb = 8192
+snapshot_files = 300000
