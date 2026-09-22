@@ -21,7 +21,7 @@ Read PLAN.md for contracts and HANDOFF.md for the latest exact state. Check boxe
 - [x] M4: bounded serial observation, device leases, and scoped Unix-socket capability API.
 - [x] M4: PocketBeagle acceptance test plus `sisyphus.toml`; no seeded recipe or prescribed build/transfer sequence.
 - [x] TOML-only configuration; remove inline Python parsing while preserving automatic empty recipes and prepared artifacts.
-- [x] Create the private GitHub repository `acalinp/sisyphus` and publish `main`.
+- [x] Publish `main` in the public GitHub repository `acalinp/sisyphus` after a full secret audit.
 - [ ] M4: complete and validate the authorized PocketBeagle 2 hardware run (started 2026-09-07; reset/DFU/missing-recipe rejection verified).
 - [ ] M4: Rubik Pi 3 fixture and real ADB/kexec/Alpine test.
 - [ ] M4: custom distribution example using pinned prior recipes.

@@ -103,7 +103,7 @@ artifacts participate in source snapshots and export. Only `run` and README are 
 ## Project and current state
 
 Destination: `/home/calinp/p/fun/sisyphus`; latest staging `/tmp/sisyphus-toml` is disposable after sync.
-Alo is unchanged. The project is published as the private GitHub repository
+Alo is unchanged. The project is published as the public GitHub repository
 `git@github.com:acalinp/sisyphus.git`; no host dependency installation was performed.
 
 M0–M2 and the model editor remain operational. New work includes:
@@ -253,9 +253,11 @@ Read AGENTS.md, PLAN.md and TODO.md before continuing. Preserve the explicit har
 
 ## GitHub repository — 2026-09-22
 
-Created the private repository `https://github.com/acalinp/sisyphus`, configured `origin` as
-`git@github.com:acalinp/sisyphus.git`, and published the initial `main` branch. Before publication,
-the tracked tree passed `git diff --cached --check` and targeted scans found no GitHub, OpenAI,
-OpenRouter, or Jina credential values. No implementation or hardware checks were rerun because
-this change only records and publishes the existing project state. The sibling Alo project was
-not accessed or changed.
+Created `https://github.com/acalinp/sisyphus`, configured `origin` as
+`git@github.com:acalinp/sisyphus.git`, and published the initial `main` branch. The repository was
+made public after scanning every tracked file and Git object, including unreachable staging blobs,
+for credential files, private keys, embedded URL credentials, bearer tokens, and common provider
+key formats. Matches were limited to environment-variable names and deliberate fake test values;
+no API key or other secret was found. No implementation or hardware checks were rerun because this
+change only records and publishes the existing project state. The sibling Alo project was not
+accessed or changed.
